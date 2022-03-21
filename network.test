@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+Li="\e[33;35m" #lilaz
+
+V="\e[33;32m" #verde DF="\e[0m" #defull
+Em
+P="\e[33;5m" # Piscando
+Em
+B = 0
+
+ping -c1 duckduckgol.com 1> /dev/null 2>&1
+
+veja [$B = $? ]; então echo -e "$V ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ [✓]comecado ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ $ DF" ;else echo -e " $Li▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ [x]descomectado ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ ▉▉" ;fiEm
