@@ -1,37 +1,21 @@
 #!/usr/bin/env bash
-Em
-Claro
-Em
 bash network.test
-
 ginome="viscond"
-
 VN="\e[1;32m \e[0m" #verde negrito
-
 V="\e[33;32m" #verde
-
 DF="\e[0m"
-
 echo  -n  -e  " $V
-Em
-╭━━╮┈┈┈╭━━╮┈┈┈┈┈ por: $ginome           ┃╭╮┣━━━┫╭╮┃┈╭┳┳╮ #licença ::GPL
 
+╭━━╮┈┈┈╭━━╮┈┈┈┈┈ por: $ginome           ┃╭╮┣━━━┫╭╮┃┈╭┳┳╮ #licença ::GPL
 ╰━┳╯▆┈▆╰┳━╯┈┃┃┃┃ #codogo limpo e de facil leitura
 
 ┈┈┃┓┈◯┈┏┃┈┈╭┫┗┗┃ #versão  :: 0.1     ┈┈┃╰┳┳┳╯┃┈┈┃┃╭━┃ #
-
 ╭━┻╮┗┻┛╭┻━╮╰┳━┳╯
-
 ┃┈┈╰━━━╯┈┈╰━┛┈┃┈$DF"
-
 A="\e[33;1m" # amarelo
-
 V="\e[33;32m" #verde
-
 DF="\e[0m"   #defalt
-
 AC="\e[33;36m"   #azul-claro
-
 Ubuntu() { pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh >>/dev/null
 
 }
@@ -90,9 +74,9 @@ echo -n -e " $A
 
 echo -e -n "$V Qual SO Deseja?<< $DF"
 
-leia X
+read X
 
-caso $ X em
+caso $X in
 
 1) Ubuntu claro;;
 
@@ -116,4 +100,4 @@ caso $ X em
 
 esac
 
-Em
+
